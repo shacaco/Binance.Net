@@ -165,6 +165,27 @@ Yes, as long as the API endpoints are the same. Switch by changing the BaseAddre
 See Timestamping.
 
 ## Release notes
+* Version 7.2.5 - 08 Oct 2021
+    * Updated CryptoExchange.Net to fix some socket issues
+
+* Version 7.2.4 - 06 Oct 2021
+    * Updated CryptoExchange.Net, fixing socket issue when calling from .Net Framework
+
+* Version 7.2.3 - 05 Oct 2021
+    * Added PriceProtect support
+
+* Version 7.2.2 - 29 Sep 2021
+    * Fix for BinanceSpotOrderBook
+    * Updated CryptoExchange.Net
+
+* Version 7.2.1 - 24 Sep 2021
+    * Added GetEnabledIsolatedMarginAccountLimitAsync endpoint
+    * Added EnableIsolatedMarginAccountAsync
+    * Added Enabled property to IsolatedMarginAccount model
+    * Added RemoveLiquidityPreviewAsync endpoint
+    * Added AddLiquidityPreviewAsync endpoint
+    * Added GetBSwapPoolConfigureAsync endpoint
+
 * Version 7.2.0 - 20 Sep 2021
     * Updated stream Topic properties to reflect symbol where possible
     * Added DisableIsolatedMarginAccountAysnc endpoint
